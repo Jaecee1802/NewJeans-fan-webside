@@ -3,7 +3,10 @@
 
  Features of this Website:
 
- Responsive(of course with media query)
- Basic Parallax Scrolling(non-JS)
- More Animations if needed and kaya pa (non-JS animations only CSS)
- Navigation
+ -Responsive(of course with media query)
+ 
+ -Basic Parallax Scrolling(non-JS)
+
+ -More Animations if needed and kaya pa (non-JS animations only CSS)
+ 
+ -Navigation
