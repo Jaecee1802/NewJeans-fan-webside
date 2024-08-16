@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+/* NAVIGATION BUTTON*/
+
+.nj-header{
+    padding-bottom: 10px;
+    background-color: #7E93BA;
+    margin-right: auto;
+}
+
+.nj-navbuttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.nj-navbuttons a{
+    text-decoration: none;
+    color: black;
+}
+
+.nj-navbuttons li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 25px;
+}
+.nj-navbuttons li:first-child{
+    margin-right: auto;
+}
+
+.nj-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.nj-logo{
+    max-width: 100%;
+    height: auto;
+}/* NAVIGATION BUTTON*/
+
+/* MEET THE MEMBERS */
+.nj-mem-title{
+    text-align: center;
+    margin: 25px 0px 20px 0px;
+    font-size: 35px;
+    flex-wrap: nowrap;
+}
+
+/* NJ MEMBER CARDS */
+
+/* all of the information in the cards of minji, hanni, danielle, haerin and hyein */
+.nj-name{
+    font-size: 18px;
+    text-align: left;
+    margin: 30px 0px 0px 40px;
+}
+.nj-info{
+    font-size: 15px;
+    text-align: left;
+    margin: 30px 0px 0px 40px;
+}
+
+.member-list{
+     display: flex;
+     justify-content: center;
+     gap: 1%;
+     margin-top: 2%;
+     flex-wrap: wrap;
+}
+
+.nj-maknaez{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+/* OFFICAL SOCIAL MEDIAS */
+.nj-ador-socmed{
+    text-align: center;
+    margin: 25px 0px 20px 0px;
+    font-size: 25px;
+    flex-wrap: nowrap;
+}
+
+/* NJ BUTTONS */
+
+.nj-ig-button a, .nj-ador-button a, .nj-ceo-button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nj-ig-button, .nj-ador-button, .nj-ceo-button{
+    padding: 20px 4px 20px 4px;
+    border: 2px solid #5B51D8;
+    background-color: #5B51D8;
+    border-radius: 10px;
+}
+
+.nj-ig-info{
+    font-size: 15px;
+}
+
+/* Background color for ADOR button */
+.nj-ador-button{
+    background-color: #833AB4;
+    border: 2px solid #833AB4;
+}
+
+/* Background color for CEO button */
+.nj-ceo-button{
+    background-color: #C13584;
+    border: 2px solid #C13584;
+    padding: 20px 30px 20px 30px;
+}
+
+.nj-social-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 5%;
+}
+
+/* FOOTER */
+.empty-nj-footer{
+    padding: 8%;
+    background-color: #7E93BA;
+}
+
+.note{
+    text-align: center;
+    flex-wrap: nowrap;
+    opacity: 0.3;
+}
