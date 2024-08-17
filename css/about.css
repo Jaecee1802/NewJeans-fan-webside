@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+
+/* NAVIGATION BUTTON*/
+
+.nj-header{
+    padding-bottom: 10px;
+    background-color: #7E93BA;
+    margin-right: auto;
+}
+
+.nj-navbuttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.nj-navbuttons a{
+    text-decoration: none;
+    color: black;
+}
+
+.nj-navbuttons li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 25px;
+}
+.nj-navbuttons li:first-child{
+    margin-right: auto;
+}
+
+.nj-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.nj-logo{
+    max-width: 100%;
+    height: auto;
+}/* NAVIGATION BUTTON*/
+
+/* ABOUT */
+.nj-abt-start, .nj-abt-ftr{
+    margin: 35px 0px 0px 60px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.nj-info{
+    max-width: 630px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 27px;
+}
+
+.nj-abt-1, .nj-abt-3, .nj-abt-4, .nj-abt-5{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.nj-abt-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 2%;
+    flex-wrap: wrap-reverse;
+}
+
+.nj-abt-4, .nj-abt-5{
+    margin-top: 10px;
+}
+
+.nj-abt-3{
+    margin-top: 10px;
+}
+.nj-firstphoto{
+    max-width: 80%;
+    margin-bottom: 1%;
+    height: auto;
+}
+
+/* FUTURE OF THE GROUP */
+
+.nj-fut-desc{
+    font-size: 32px;
+    max-width: 1300px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+
+.empty-nj-footer{
+    padding: 8%;
+    background-color: #7E93BA;
+}
+
+.note{
+    text-align: center;
+    flex-wrap: nowrap;
+    opacity: 0.3;
+}
