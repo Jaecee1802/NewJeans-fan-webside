@@ -27,15 +27,24 @@ body{
 .nj-navbuttons a{
     text-decoration: none;
     color: black;
+    transition: 0.5s;
 }
 
 .nj-navbuttons li{
     list-style-type: none;
     display: inline;
     margin-left: 25px;
+    transition: 0.5s;
 }
 .nj-navbuttons li:first-child{
     margin-right: auto;
+}
+
+.nj-navbuttons li a:hover{
+    background-color: #4a5f90;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .nj-logo{
@@ -117,4 +126,49 @@ body{
     text-align: center;
     flex-wrap: nowrap;
     opacity: 0.3;
+}
+
+/* ON-SCROLL ANIMATION */
+@keyframes onScroll{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.nj-abt-start{
+    animation: onScroll 1s ease-out;
+}
+
+.nj-abt-1, .nj-abt-2{
+    animation: onScroll 2s linear;
+}
+
+.nj-abt-3{
+    animation: onScroll 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.nj-abt-4{
+    animation: onScroll 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.nj-abt-5{
+    animation: onScroll 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.nj-future{
+    animation: onScroll 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
 }
